@@ -1,0 +1,13 @@
+.card_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+    .card_container {
+        background-color: #F6F6F6;
+        border-radius: 25px;
+        padding: 20px
+    }
+}

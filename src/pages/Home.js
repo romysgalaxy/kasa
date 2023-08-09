@@ -1,10 +1,10 @@
-import '../App.css';
+import '../style/home.css'
 import data from '../data/data.json'
 import Card from '../components/Card';
 
 function Home() {
   return (
-    <div className="App">
+    <div className="card_container">
       {data.map((item) => (
         <Card key={item.id} item={item}/>
       ))}
