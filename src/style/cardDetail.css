@@ -1,0 +1,101 @@
+.cardDetail h1 {
+    font-weight: 500;
+}
+
+.cardDetail .cardDetail_localisation {
+    font-size: 14px;
+}
+
+.cardDetail .cardDetail_container-tag {
+    display: flex;
+}
+
+.cardDetail .cardDetail_container-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardDetail .cardDetail_container-tag span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    background-color: #FF6060;
+    min-width: 84px;
+    height: 18px;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+
+.cardDetail_part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardDetail_container-star img {
+    width: 18px;
+}
+
+.cardDetail .cardDetail_container-name {
+    display: flex;
+    align-items: center;
+}
+
+.cardDetail .cardDetail_container-name p {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.cardDetail .cardDetail_container-name img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 579px) {
+    .cardDetail_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cardDetail_part2 {
+        display: flex;
+        flex-direction: column-reverse;
+        min-width: 200px;
+    }
+    .cardDetail h1 {
+        font-size: 36px;
+    }
+    .cardDetail .cardDetail_localisation {
+        font-size: 18px;
+    }
+    .cardDetail .cardDetail_container-tag span {
+       font-size: 14px;
+       min-width: 115px;
+       height: 25px;
+    }
+    .cardDetail .cardDetail_container-name p {
+        font-size: 18px;
+    }
+    .cardDetail .cardDetail_container-name img {
+        width: 64px;
+        height: 64px;
+    }
+    .cardDetail_container-star img {
+        width: 36px;
+    }
+    .cardDetail_content {
+        display: flex;
+        width: 100%;
+    }
+    .cardDetail_content .accordion {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}

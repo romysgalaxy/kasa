@@ -19,7 +19,7 @@ code {
     monospace;
 }
 
-p {
+p, h1 {
   font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 400;
