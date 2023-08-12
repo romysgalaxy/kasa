@@ -1,0 +1,41 @@
+.hero {
+    height: 110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Ajoute une opacité de 30% de couleur noire */
+    border-radius: 10px;
+}
+
+.hero p {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    margin: 15px;
+}
+
+@media screen and (min-width: 579px) {
+    .hero {
+        height: 220px;
+    }
+    .hero p {
+        font-size: 48px;
+    }
+}

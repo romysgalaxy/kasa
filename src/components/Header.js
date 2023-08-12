@@ -4,7 +4,9 @@ import '../style/header.css'
 export default function Header () {
     return (
         <header>
-            <img src={logo} alt='logo'/>
+            <a href='/'>
+                <img src={logo} alt='logo'/>
+            </a>
             <nav>
                 <ul>
                     <li>
