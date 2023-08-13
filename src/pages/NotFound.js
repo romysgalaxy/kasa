@@ -1,7 +1,13 @@
+import '../style/notFound.css'
+
 export default function NotFound() {
     return (
-      <div>
-        <h1>Page non trouvée (404)</h1>
+      <div className="notFound">
+        <div className="notFound_header">
+          <p>404</p>
+          <h1>Oups! La page que vous demandez n'existe pas.</h1>
+        </div>
+        <a href="/">Retourner sur la page d’accueil</a>
       </div>
     );
   }
