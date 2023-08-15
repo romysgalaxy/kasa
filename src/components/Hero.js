@@ -7,4 +7,4 @@ export default function Hero({img, text}) {
         <p>{text}</p>
       </div>
     );
-  }
+}

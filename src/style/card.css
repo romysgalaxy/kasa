@@ -2,7 +2,6 @@
     position: relative;
     display: flex;
     width: 100%;
-    max-width: 350px;
     height: 255px;
     border-radius: 10px;
     margin: 10px 0;
@@ -47,6 +46,7 @@
 @media screen and (min-width: 579px) {
     .card {
         margin: 10px;
+        max-width: 350px;
     }
 }
 

@@ -49,9 +49,11 @@
     .accordion_header h3 {
         font-size: 18px;
     }
-
     .accordion_content p {
         font-size: 18px;
+    }
+    .accordion_header img {
+        width: 30px;
     }
 }
 
